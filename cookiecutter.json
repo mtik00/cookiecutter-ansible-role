@@ -1,6 +1,7 @@
 {
     "full_name": "your name",
     "github_username": "GitHub username",
+    "galaxy_namespace": "{{ cookiecutter.github_username }}",
     "repo_name": "ansible-role-test",
     "role_name": "test",
     "description": "Short description of your role",

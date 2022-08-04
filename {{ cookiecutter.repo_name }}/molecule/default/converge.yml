@@ -5,4 +5,4 @@
   tasks:
     - name: "Include {{ cookiecutter.role_name }}"
       ansible.builtin.include_role:
-        name: "{{ cookiecutter.github_username }}.{{ cookiecutter.role_name }}"
+        name: "{{ cookiecutter.galaxy_namespace }}.{{ cookiecutter.role_name }}"
