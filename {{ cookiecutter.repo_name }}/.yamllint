@@ -1,0 +1,10 @@
+---
+extends: default
+
+rules:
+  line-length: disable
+  new-lines:
+    type: unix
+
+ignore: |
+  .travis.yml
