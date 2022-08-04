@@ -1,6 +1,7 @@
 ---
 
-# Shamelessly ripped fromhttps://github.com/geerlingguy/ansible-role-php/blob/master/.github/workflows/ci.yml
+# Shamelessly ripped and modified from
+# https://github.com/geerlingguy/ansible-role-php/blob/master/.github/workflows/ci.yml
 
 name: CI
 'on':
@@ -45,9 +46,7 @@ jobs:
       matrix:
         include:
           - distro: ubuntu2004
-            playbook: converge.yml
           - distro: ubuntu2204
-            playbook: converge.yml
 
     steps:
       - name: Check out the codebase.
