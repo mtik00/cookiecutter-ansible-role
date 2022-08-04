@@ -4,6 +4,8 @@ galaxy_info:
   author: {{ cookiecutter.full_name }}
   description: {{ cookiecutter.description }}
   company: ""
+  role_name: {{ cookiecutter.role_name }}
+  namespace: {{ cookiecutter.github_username }}
   issue_tracker_url: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/issues
   license: MIT
   min_ansible_version: "{{ cookiecutter.min_ansible_version }}"

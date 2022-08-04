@@ -3,6 +3,6 @@
   hosts: all
   gather_facts: false
   tasks:
-    - name: "Include {{ role_name }}"
+    - name: "Include {{ cookiecutter.role_name }}"
       ansible.builtin.include_role:
-        name: "{{ role_name }}"
+        name: "{{ cookiecutter.github_username }}.{{ cookiecutter.role_name }}"
