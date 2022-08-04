@@ -2,3 +2,7 @@
 */__pycache__
 *.pyc
 .cache
+
+# Some things that should be hidden, depending on your dev environment
+.secrets
+instance
