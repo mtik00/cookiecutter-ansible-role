@@ -7,3 +7,9 @@ repos:
       - id: ansible-lint
         files: \.(yaml|yml)$
         exclude: (^travis.yml$)
+        stages: ["commit"]
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: master
+    hooks:
+      - id: commitizen
+        stages: ["commit-msg"]
