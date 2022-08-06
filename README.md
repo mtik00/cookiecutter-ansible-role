@@ -19,6 +19,7 @@ The template assumes you are using Python as your dev environment and installs b
 The following assumes you already have a virtual environment activated (or you are using `direnv`).
 ```
 git init .
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 pre-commit autoupdate
 pre-commit install
