@@ -2,5 +2,5 @@ ansible
 ansible-lint
 black
 commitizen
-molecule
+molecule[docker,lint]
 pre-commit
