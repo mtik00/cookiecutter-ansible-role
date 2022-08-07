@@ -29,5 +29,5 @@ git commit -m"feat: initial checkin"
 cz changelog
 git add CHANGELOG.md
 git commit -m"docs: adding changelog"
-cz bump
+cz bump --yes
 ```
