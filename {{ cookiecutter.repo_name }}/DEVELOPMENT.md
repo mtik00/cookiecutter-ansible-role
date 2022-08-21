@@ -4,18 +4,7 @@
 
 Run this script for initial setup (just after `cookiecutter`):
 ```
-git init .
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-pre-commit autoupdate
-pre-commit install
-pre-commit install --hook-type commit-msg
-git add .
-git commit -m"feat: initial checkin"
-cz changelog
-git add CHANGELOG.md
-git commit -m"docs: adding changelog"
-cz bump --yes
+./bin/init-repo.sh
 ```
 
 ## Ongoing development
