@@ -1,3 +1,18 @@
+## 0.2.0 (2022-08-21)
+
+### Feat
+
+- adding init-repo script
+- adding molecule requirements.yml
+
+### Fix
+
+- yamllint verify.yml
+
+### Refactor
+
+- adding --yes to docs
+
 ## 0.1.2 (2022-08-06)
 
 ### Fix
