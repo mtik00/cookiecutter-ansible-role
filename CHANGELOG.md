@@ -1,3 +1,22 @@
+## 0.2.0 (2023-07-26)
+
+### Feat
+
+- move from yes/no to booleans
+- adding init-repo script
+- adding molecule requirements.yml
+
+### Fix
+
+- dont start with gpg_sign
+- test role
+- yamllint verify.yml
+
+### Refactor
+
+- change comment (again)
+- adding --yes to docs
+
 ## 0.1.2 (2022-08-06)
 
 ### Fix
