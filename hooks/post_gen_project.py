@@ -8,12 +8,12 @@ from pathlib import Path
 
 
 REMOVE_DIRS = [
-    '{% if cookiecutter.enable_github_actions != "yes" %}.github/workflows{% endif %}',
+    "{% if not cookiecutter.enable_github_actions %}.github/workflows{% endif %}",
 ]
 
 # Adding .envrc directly to the template makes template development a pain since
 # direnv is enabled in the directoy above.  Therefore, create the file dynamically.
-DIRENV_ENABLED = '{% if cookiecutter.enable_direnv == "yes" %}true{% endif %}'
+DIRENV_ENABLED = "{% if cookiecutter.enable_direnv %}true{% endif %}"
 DIRENV = """layout python python3
 
 # Create .secrets/env.sh for exporting repo-specific shell things with sensitive
