@@ -1,3 +1,9 @@
+## 0.3.0 (2023-07-27)
+
+### Feat
+
+- bump github action versions
+
 ## 0.2.1 (2023-07-27)
 
 ### Fix
